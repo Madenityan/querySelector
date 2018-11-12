@@ -1,0 +1,28 @@
+.wrapper-menu {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding: 15px;
+    width: 471px;
+    height: 70px;
+}
+
+.list-menu li {
+    list-style-type: none;
+}
+
+.list-menu a {
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}

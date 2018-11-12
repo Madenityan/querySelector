@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test-querySe-sector</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="wrapper-menu">
+    <nav>
+        <ul class="list-menu">
+            <li>
+                <a href="#" onmouseover="bigText(this)" onmouseout="normalText(this)" onclick="changeColor(this, 'green')">Home</a>
+            </li>
+            <li >
+                <a href="#" onmouseover="bigText(this)" onmouseout="normalText(this)" onclick="changeColor(this, 'blue')">About</a>
+            </li>
+            <li>
+                <a href="#" onmouseover="bigText(this)" onmouseout="normalText(this)" onclick="changeColor(this, 'orange')">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <p onmouseover="bigText(this)" onmouseout="normalText(this)" id="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor libero, lacinia quis ligula eget,
+            semper sagittis justo. In rutrum porta mollis. Fusce non ligula commodo, tempor nunc ut,
+            accumsan velit. Sed tincidunt commodo libero, ut tempus erat suscipit a. Nam quam lorem,
+            mollis mollis urna ac, efficitur fringilla nisl.
+            Proin pharetra mollis varius. Proin vestibulum sem auctor vehicula semper.</p>
+        <button onclick="resize(this, 'orange', 'blue')" id="btn-submit">Submit</button>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
